@@ -62,17 +62,17 @@ public class op009 {
 //            int substract = a - b;
             System.out.println("Input operation: ");
             String s = input.next();
-            if boolean compareObjects = s.equals("-"){
-                System.out.println(compareObjects);
+//            if boolean compareObjects = s.equals("-"){
+//                System.out.println(compareObjects);
             }
 
-        int c = a - b;
-        System.out.println(c);
+//        int c = a - b;
+//        System.out.println(c);
 //            System.out.println("Skaiciu skirtumas: " + );
 
     }
 
 
-    }
+
 
 
