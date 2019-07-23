@@ -12,11 +12,11 @@ public class op006 {
         System.out.println("Input Fahrenheit: ");
 
         int f = input.nextInt();
-//    double f = 60;
+//    double f = 60; // ivedimas be skanerio
     double c = (f - 32) / 1.8;
-        System.out.println(f + " Fahrenheit = ");
+        System.out.print(f + " Fahrenheit = ");
         System.out.format( "%.2f%n", c);
-        System.out.println("Celsius");
+        System.out.print("Celsius");
 
 
     }
