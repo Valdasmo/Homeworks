@@ -5,72 +5,45 @@ import java.util.Scanner;
 public class op009 {
     public static void main(String[] args) {
         calculator();
-}
+    }
 
     private static void calculator() {
-//        int a = 3;
-//
-//        int b = 4;
-
-//        int c = 0;
-//        double c = 2;
-//        double d = 3;
-
-//        int substract = a - b;
-//        int multiply = a * b;
-//        int divide = a / b;
-////        double divideDouble = c / d;
-//        int reminder = a % b;
-//        boolean checkEqual = a == b;
-//        boolean checkMore = a > b;
-//        boolean checkLess = a < b;
-//        System.out.println("add: " + add);
-//        System.out.println("substract: " + substract);
-//        System.out.println("multiply: " + multiply);
-//        System.out.println("divide: " + divide);
-//        System.out.println("divide: " + divideDouble);
-//        System.out.println("reminder: " + reminder);
-//        System.out.println("a = b? " + checkEqual);
-//        System.out.println("a > b? " + checkMore);
-//        System.out.println("a < b? " + checkLess);
-//        c = a & b;
-//        printBinary(a, 8);
-//        System.out.println("&");
-//        printBinary(b, 8);
-//        System.out.println("--------");
-//        printBinary(c, 8);
-//        System.out.println("a & b = " + c );
-//        c = a | b;
-//        System.out.println("a | b = " + c );
-//        c = a ^ b;
-//        System.out.println("a ^ b = " + c );
-//        c = ~a;
-//        System.out.println("~a = " + c );
-//        c = a << 2;
-//        System.out.println("a << 2 = " + c );
-//        c = a >> 2;
-//        System.out.println("a >> 2 = " + c );
-//        c = a >>> 2;
-//        System.out.println("a >>> 2 = " + c );
-
-            Scanner input = new Scanner(System.in);
-            System.out.println("Input number a: ");
-
-            int a = input.nextInt();
-            System.out.println("Input number b: ");
-            int b = input.nextInt();
-//            int substract = a - b;
-            System.out.println("Input operation: ");
-            String s = input.next();
-//            if boolean compareObjects = s.equals("-"){
-//                System.out.println(compareObjects);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input number a: ");
+        int a = input.nextInt();
+        System.out.println("Input number b: ");
+        int b = input.nextInt();
+        System.out.println("Input operation: ");
+        String operation = input.next();
+        if ((operation.equals("+") | (operation.equals("-")) | (operation.equals("*")) | (operation.equals("/")))) {
+            switch (operation) {
+                case ("+"):
+                    System.out.println("add: " + (a + b));
+                    break;
+                case ("-"):
+                    System.out.println("substract: " + (a - b));
+                    break;
+                case ("*"):
+                    System.out.println("multiply: " + (a * b));
+                    break;
+                case ("/"):
+                    System.out.println("divide: " + (a / b));
+                    break;
             }
 
+        } else {
+            System.out.println("Wrong operation!");
+        }
+
+//        System.out.println(a + b);
+    }
+}
+// case c:
 //        int c = a - b;
 //        System.out.println(c);
 //            System.out.println("Skaiciu skirtumas: " + );
 
-    }
+
 
 
 
