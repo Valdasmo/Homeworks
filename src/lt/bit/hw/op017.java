@@ -4,7 +4,6 @@ public class op017 {
     public static void main(String args[]) {
         int a, b;
 
-        // first print the top header row
         System.out.format("      ");
         for (int i = 1; i <= 10; i++) {
             System.out.format("%4d", i);
@@ -13,6 +12,7 @@ public class op017 {
         System.out.println("----------------------------------------------");
 
         for (a = 1; a <= 10; a++) {
+            System.out.format("%4d |", a);
             for (b = 1; b <= 10; b++) {
                 System.out.format("%4d", a * b);
             }
