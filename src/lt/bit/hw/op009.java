@@ -2,6 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
+//    Calculator with scanner
 public class op009 {
     public static void main(String[] args) {
         calculator();
