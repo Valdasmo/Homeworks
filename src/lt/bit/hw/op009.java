@@ -35,13 +35,9 @@ public class op009 {
             System.out.println("Wrong operation!");
         }
 
-//        System.out.println(a + b);
     }
 }
-// case c:
-//        int c = a - b;
-//        System.out.println(c);
-//            System.out.println("Skaiciu skirtumas: " + );
+
 
 
 
