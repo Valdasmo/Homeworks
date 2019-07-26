@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 public class op013 {
     public static void main(String[] args) {
-        factorial(5);
+        factorial(20);
 
     }
 
