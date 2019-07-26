@@ -1,7 +1,7 @@
 package lt.bit.hw;
 
 public class op017 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int a, b;
 
         System.out.format("      ");
@@ -9,7 +9,7 @@ public class op017 {
             System.out.format("%4d", i);
         }
         System.out.println();
-        System.out.println("----------------------------------------------");
+        System.out.println("     -----------------------------------------");
 
         for (a = 1; a <= 10; a++) {
             System.out.format("%4d |", a);
