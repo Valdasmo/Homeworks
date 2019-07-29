@@ -11,14 +11,14 @@ public class op016 {
         int k = 0;
 
         System.out.println("Sum calculation with 'for':");
-        for (int i = 0; i <= 10; i = i + 2) {
+        for (int i = 0; i <= 1000; i = i + 2) {
             sumByFor += i;
         }
         System.out.println(sumByFor);
 
 
         System.out.println("Sum calculation with 'while':");
-        while (j <= 10) {
+        while (j <= 1000) {
             sumByWhile += j;
             j = j + 2;
         }
@@ -28,7 +28,7 @@ public class op016 {
         do {sumByDoWhile += k;
             k = k + 2;
         }
-        while (k <= 10);
+        while (k <= 1000);
         System.out.println(sumByDoWhile);
     }
 
