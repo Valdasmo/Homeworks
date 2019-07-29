@@ -8,8 +8,9 @@ public class op015 {
 
     private static void calcFunction(int y) {
         System.out.println("Calculation y = x * 3");
+        System.out.println("----------------------");
     for (int x=0; x<=10; x++){
-        System.out.println("When x = " + x+ " - Y = " + (x*3));
+        System.out.println("When x = " + x+ "   Y = " + (x*3));
     }
 
     }
