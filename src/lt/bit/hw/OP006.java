@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
-public class op006 {
+public class OP006 {
     public static void main(String[] args) {
         FtoCconverter();
     }

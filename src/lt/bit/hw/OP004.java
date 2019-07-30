@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
-public class op004 {
+public class OP004 {
     public static void main(String[] args) {
 //        double pi = Math.PI;
         printPI();

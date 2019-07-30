@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
-public class op014 {
+public class OP014 {
     public static void main(String args[]) {
         int a = 0, b = 1, c = 0, limit;
         Scanner scan = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package lt.bit.hw;
 
-public class op012 {
+public class OP012 {
     public static void main(String[] args) {
         int length = 10, width = 5, radius = 5;
         Double edgeOne = 20.0, edgeTwo = 10.0;

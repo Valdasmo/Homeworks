@@ -4,7 +4,7 @@ package lt.bit.hw;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class op010 {
+public class OP010 {
     public static void main(String[] args) {
         arraySorting();
 

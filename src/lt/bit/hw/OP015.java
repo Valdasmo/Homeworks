@@ -1,6 +1,6 @@
 package lt.bit.hw;
 
-public class op015 {
+public class OP015 {
     public static void main(String[] args) {
         int y  = 0;
         calcFunction(y);

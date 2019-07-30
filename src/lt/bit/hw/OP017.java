@@ -1,6 +1,6 @@
 package lt.bit.hw;
 
-public class op017 {
+public class OP017 {
     public static void main(String[] args) {
         int a, b;
 

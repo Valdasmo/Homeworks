@@ -1,7 +1,7 @@
 package lt.bit.hw;
 
 // Calculator w/o scanner
-public class op008 {
+public class OP008 {
     public static void main(String[] args) {
         int a = 22;
         int b = 15;

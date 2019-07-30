@@ -3,7 +3,7 @@ package lt.bit.hw;
 import java.util.Scanner;
 
 //    BMI with scanner
-public class op007 {
+public class OP007 {
     public static void main(String[] args) {
         bmi();
     }

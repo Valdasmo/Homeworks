@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
-public class op003 {
+public class OP003 {
     public static void main(String[] args) {
         int a = 2, b = 5;
         calcSquare(a, b);

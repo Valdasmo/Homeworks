@@ -2,7 +2,7 @@ package lt.bit.hw;
 
 import java.util.Scanner;
 
-public class op005 {
+public class OP005 {
     public static void main(String[] args) {
 //        int mass = 100;
 //        weight(mass);
