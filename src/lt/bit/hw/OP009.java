@@ -14,28 +14,24 @@ public class OP009 {
         int a = input.nextInt();
         System.out.println("Input number b: ");
         int b = input.nextInt();
-        System.out.println("Input operation: ");
+        System.out.println("Input operation(+, -, *, /): ");
         String operation = input.next();
-        if ((operation.equals("+") | (operation.equals("-")) | (operation.equals("*")) | (operation.equals("/")))) {
-            switch (operation) {
-                case ("+"):
-                    System.out.println("add: " + (a + b));
-                    break;
-                case ("-"):
-                    System.out.println("substract: " + (a - b));
-                    break;
-                case ("*"):
-                    System.out.println("multiply: " + (a * b));
-                    break;
-                case ("/"):
-                    System.out.println("divide: " + (a / b));
-                    break;
-            }
-
-        } else {
-            System.out.println("Wrong operation!"); //TODO
+        switch (operation) {
+            case ("+"):
+                System.out.println("add: " + (a + b));
+                break;
+            case ("-"):
+                System.out.println("substract: " + (a - b));
+                break;
+            case ("*"):
+                System.out.println("multiply: " + (a * b));
+                break;
+            case ("/"):
+                System.out.println("divide: " + (a / b));
+                break;
+            default:
+                System.out.println("Wrong operation!");
         }
-
     }
 }
 
