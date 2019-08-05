@@ -31,6 +31,7 @@ public class OP009 {
                 break;
             default:
                 System.out.println("Wrong operation!");
+                break;
         }
     }
 }
